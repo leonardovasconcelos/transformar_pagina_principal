@@ -49,21 +49,6 @@ function navClick(evt) {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*Scroll Suave */
 
 function scrollToSection(event) {
@@ -121,7 +106,7 @@ $toTop.addEventListener(
 function enviarMensagem(){
   $.ajax({
     type: 'POST',
-    url: "http://163.107.93.174/send",
+    url: "https://163.107.93.174/send",
     data: { 
         'nome': $("#name").val(), 
         'email': $("#email").val(),
